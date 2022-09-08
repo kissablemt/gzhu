@@ -216,7 +216,7 @@ def yqtb(user: GZHU) -> bool:
         qk_form["fieldYQJLsfjcqtbl"] = "2" # 是否接触过半个月内有疫情重点地区旅居史的人员, "2"代表没有接触
         qk_form["fieldJKMsfwlm"] = "1" # 健康码是否为绿码, "1"代表为绿码
         qk_form["fieldCXXXsftjhb"] = "2" # 半个月内是否到过国内疫情重点地区, "2"代表否
-        qk_form["fieldCNS"] = True # 本人承诺对上述填报内容真实性负责，如有不实，本人愿意承担一切责任
+        # qk_form["fieldCNS"] = True # 本人承诺对上述填报内容真实性负责，如有不实，本人愿意承担一切责任
 
         # /listNextStepsUsers , 与/doAction 不知道啥区别, 测试可以跳过
 
